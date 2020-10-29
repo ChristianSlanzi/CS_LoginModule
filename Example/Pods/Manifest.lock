@@ -1,0 +1,16 @@
+PODS:
+  - CS_LoginModule (0.1.0)
+
+DEPENDENCIES:
+  - CS_LoginModule (from `../`)
+
+EXTERNAL SOURCES:
+  CS_LoginModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CS_LoginModule: ec9e4f67a8c513a5a14c25e55149d1eec351b418
+
+PODFILE CHECKSUM: 10b49b8a5322aea5e62b08e85ae3a662a24432ed
+
+COCOAPODS: 1.8.4

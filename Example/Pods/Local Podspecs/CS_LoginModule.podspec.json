@@ -1,0 +1,22 @@
+{
+  "name": "CS_LoginModule",
+  "version": "0.1.0",
+  "summary": "A short description of CS_LoginModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ChristianSlanzi/CS_LoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChristianSlanzi": "christian.slanzi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ChristianSlanzi/CS_LoginModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CS_LoginModule/Classes/**/*"
+}

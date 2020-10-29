@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Fitness-Notiz
+
+  Created by Christian Slanzi on 23.12.19.
+  Copyright © 2019 Christian Slanzi. All rights reserved.
+*/
+"login_pswd_forgot" = "Forgot your Password?";
+"login_success_message" = "Welcome! You are logged in!";
+"login_error_message" = "Error! Login failed!";

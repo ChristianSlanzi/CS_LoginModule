@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "PASSWORD"; ObjectID = "4ph-jr-cZW"; */
+"4ph-jr-cZW.text" = "PASSWORT";
+
+/* Class = "UILabel"; text = "USERNAME"; ObjectID = "RYl-gg-2ge"; */
+"RYl-gg-2ge.text" = "BENUTZERNAME";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "VQf-X9-LU8"; */
+"VQf-X9-LU8.normalTitle" = "EINLOGGEN";
+
+/* Class = "UIButton"; normalTitle = "Forgot your Password?"; ObjectID = "YVc-N9-Z3Q"; */
+"YVc-N9-Z3Q.normalTitle" = "Passwort vergessen?";
