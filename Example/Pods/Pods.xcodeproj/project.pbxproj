@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244E9412254AEFCD008AE146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244E9411254AEFCD008AE146 /* Assets.xcassets */; };
 		246C82712549DB42009AD69F /* LoginModuleLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 246C82532549DB42009AD69F /* LoginModuleLocalizable.strings */; };
 		246C82722549DB42009AD69F /* Login.strings in Resources */ = {isa = PBXBuildFile; fileRef = 246C82572549DB42009AD69F /* Login.strings */; };
 		246C82732549DB42009AD69F /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C825A2549DB42009AD69F /* LoginTextField.swift */; };
-		246C82742549DB42009AD69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246C825B2549DB42009AD69F /* Assets.xcassets */; };
 		246C82752549DB42009AD69F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246C825C2549DB42009AD69F /* Login.storyboard */; };
 		246C82762549DB42009AD69F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C825E2549DB42009AD69F /* LoginViewController.swift */; };
 		246C82772549DB42009AD69F /* LoginVcFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C82602549DB42009AD69F /* LoginVcFactory.swift */; };
@@ -28,7 +28,6 @@
 		71DF18E2BAD5E9231D0FA3045BFA61D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		98125CCA423AF032AD5FA2EA9B908F09 /* Pods-CS_LoginModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F83E8973F116A4CD4FB9E809440AA630 /* Pods-CS_LoginModule_Tests-dummy.m */; };
 		B7748A44CED786375B896A69D8D0DE9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BDC1015612BA7A62FE37ED3A6ABB7A05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07194C313D630922B36B434197F0DCC /* ReplaceMe.swift */; };
 		C462BAD196EF6E5CB94DBB78C2B6CFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CC32D360F6F0AFCDE5980B9CF9E61D1A /* CS_LoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 998815529A33FBC4CB68A0F590DFDB6B /* CS_LoginModule-dummy.m */; };
 		DCA7BCFD3122DC2FDA261EAB0AD158F3 /* Pods-CS_LoginModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5D2D87015014BB85C6C21F62E2030E /* Pods-CS_LoginModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,11 +55,11 @@
 		08E52A0C8DE760FAA4498C76840BBE59 /* Pods-CS_LoginModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CS_LoginModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		0C75B8CB1FEB07593020F2730D0CF270 /* CS_LoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CS_LoginModule-umbrella.h"; sourceTree = "<group>"; };
 		10C990B2928C5CB479D9D4D28573FF19 /* CS_LoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CS_LoginModule-prefix.pch"; sourceTree = "<group>"; };
+		244E9411254AEFCD008AE146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246C82542549DB42009AD69F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LoginModuleLocalizable.strings; sourceTree = "<group>"; };
 		246C82552549DB42009AD69F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LoginModuleLocalizable.strings; sourceTree = "<group>"; };
 		246C82582549DB42009AD69F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Login.strings; sourceTree = "<group>"; };
 		246C825A2549DB42009AD69F /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
-		246C825B2549DB42009AD69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246C825D2549DB42009AD69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		246C825E2549DB42009AD69F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		246C82602549DB42009AD69F /* LoginVcFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVcFactory.swift; sourceTree = "<group>"; };
@@ -94,7 +93,6 @@
 		BB7FCA7C7E108EC3A6B74C4146CF4959 /* Pods-CS_LoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CS_LoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C25EA8D6BDBE29C8B709AA3671755D2B /* CS_LoginModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CS_LoginModule.xcconfig; sourceTree = "<group>"; };
 		C280AFC8DB132BFF7C09E4E3F80F4F49 /* Pods-CS_LoginModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CS_LoginModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D07194C313D630922B36B434197F0DCC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CS_LoginModule/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D38DAF576B658900E02EBCCBB87D84B6 /* CS_LoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CS_LoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC251A08E942FE725766F2C8BF98886C /* CS_LoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CS_LoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5D2D87015014BB85C6C21F62E2030E /* Pods-CS_LoginModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CS_LoginModule_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -147,9 +145,9 @@
 		246C82562549DB42009AD69F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				244E9411254AEFCD008AE146 /* Assets.xcassets */,
 				246C82572549DB42009AD69F /* Login.strings */,
 				246C82592549DB42009AD69F /* UI */,
-				246C825B2549DB42009AD69F /* Assets.xcassets */,
 				246C825C2549DB42009AD69F /* Login.storyboard */,
 				246C825E2549DB42009AD69F /* LoginViewController.swift */,
 				246C825F2549DB42009AD69F /* Factory */,
@@ -267,7 +265,6 @@
 			isa = PBXGroup;
 			children = (
 				246C82522549DB42009AD69F /* Login  */,
-				D07194C313D630922B36B434197F0DCC /* ReplaceMe.swift */,
 				2CBB3FA9AD7B7A73838AD5E6EFD529DA /* Pod */,
 				8F9286A65216E4E4FFC37CA00E1ADB40 /* Support Files */,
 			);
@@ -482,7 +479,7 @@
 			files = (
 				246C82752549DB42009AD69F /* Login.storyboard in Resources */,
 				246C82722549DB42009AD69F /* Login.strings in Resources */,
-				246C82742549DB42009AD69F /* Assets.xcassets in Resources */,
+				244E9412254AEFCD008AE146 /* Assets.xcassets in Resources */,
 				246C82712549DB42009AD69F /* LoginModuleLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,7 +525,6 @@
 				246C82732549DB42009AD69F /* LoginTextField.swift in Sources */,
 				246C827E2549DB42009AD69F /* LoginUseCaseOutputComposer.swift in Sources */,
 				CC32D360F6F0AFCDE5980B9CF9E61D1A /* CS_LoginModule-dummy.m in Sources */,
-				BDC1015612BA7A62FE37ED3A6ABB7A05 /* ReplaceMe.swift in Sources */,
 				246C827B2549DB42009AD69F /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

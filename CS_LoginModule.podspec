@@ -7,10 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CS_LoginModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A generic Login/Signup Framework'
+    s.platform = :ios
+    s.ios.deployment_target = '13.0'
+    s.swift_version = '5.0'
+    
+    s.name             = 'CS_LoginModule'
+    s.version          = '0.1.0'
+    s.summary          = 'A generic Login/Signup Framework'
 
+    s.requires_arc = true
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -26,14 +31,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ChristianSlanzi/CS_LoginModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
-  s.swift_version = '5.0'
+  s.frameworks = 'UIKit'
 
-  s.source_files = 'CS_LoginModule/Classes/**/*'
+  s.source_files = 'CS_LoginModule/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
-  #   'CS_LoginModule' => ['CS_LoginModule/Assets/*.png']
+  #  'CS_LoginModule' => ['CS_LoginModule/Assets/*.png']
   # }
+  #s.resources = 'CS_LoginModule/Assets/**/*.{strings,xcassets}'
+  s.resources = "CS_LoginModule/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
